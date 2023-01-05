@@ -1,0 +1,80 @@
+body {
+    background-image: url(Tomatoes.jpg);
+    background-size: cover;
+}
+
+h1,
+h2,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: flex;
+    width: auto;
+    max-width: 310px;
+    min-width: none;
+    margin: auto;
+    align-content: center;
+    background-color: white;
+}
+
+#inner-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin: 10px auto;
+    min-width: 300px;
+    max-width: 300px;
+    background-color: rgb(235, 198, 198);
+}
+
+button {
+    display: block;
+    align-content: center;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#increment-btn {
+    background-color: green;
+    padding: 10px 10px;
+    font-size: larger;
+    color: white;
+}
+
+#save-btn {
+    background-color: blue;
+    font-size: larger;
+    color: white;
+}
+
+#increment-btn:hover {
+    background-color: rgb(90, 194, 104);
+    color: black;
+}
+
+#save-btn:hover {
+    background-color: rgb(107, 105, 219);
+    color: black;
+}
+
+#total-tomatoes {
+    font-size: larger;
+}
+
+#counter {
+    font-size: larger;
+}
+
+#reset-btn {
+    background-color: red;
+    font-size: larger;
+    color: white;
+    padding: 10px;
+}
+
+#reset-btn:hover {
+    background-color: rgb(71, 5, 5);
+}

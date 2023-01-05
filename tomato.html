@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="tomato.css">
+    <title>Tomato Counter</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="inner-container">
+            <div class="h-containers">
+                <h1>Tomato Counter</h1>
+            </div>
+            <div class="h-containers">
+                <h2>Slots completed</h2>
+            </div>
+            <p id="count-el" data-default-value="0">0 🍅</p>
+            <button id="increment-btn" onclick="increment()">SLOT DONE</button>
+            <p>Tomatoes counted: <span id="save-el" data-default-value=" "></span> </p>
+            <h2>Total minutes: <span id="total-el" data-default-value="0">0</span></h2>
+            <button id="reset-btn" onclick="reset()">RESET</button>
+        </div>
+    </div>
+    <script src="tomato.js"></script>
+</body>
+
+</html>
