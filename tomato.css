@@ -10,13 +10,18 @@ p {
 }
 
 #container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     display: flex;
     width: auto;
     max-width: 310px;
     min-width: none;
     margin: auto;
     align-content: center;
-    background-color: white;
+
 }
 
 #inner-container {
@@ -28,6 +33,7 @@ p {
     min-width: 300px;
     max-width: 300px;
     background-color: rgb(235, 198, 198);
+    border: solid rgb(83, 41, 41);
 }
 
 button {
